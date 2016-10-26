@@ -78,7 +78,7 @@ class FastaTool {
         String s;
         while(! finished) {
             s = "";
-            for(int i=0; i<57; i++) {
+            for(int i=0; i < (Math.min(maxLength, counter*60) - (counter-1)*60+1 - ((int)Math.log10((counter-1)*60+1)+1) - ((int)Math.log10(Math.min(maxLength, counter*60))+1)); i++) {
                 s += " ";
             }
             System.out.printf(format, "", (counter-1)*60+1 + s + Math.min(maxLength, counter*60));
