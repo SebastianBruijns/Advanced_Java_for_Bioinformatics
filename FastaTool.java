@@ -96,7 +96,7 @@ class FastaTool {
         System.out.println("Shortest length: " + minLength + " (excluding \'-\'s: " + minLengthWithout + ")");
         System.out.println("Average length:  " + avgLength + " (excluding \'-\'s: " + avgLengthWithout + ")");
         System.out.println("Longest length:  " + maxLength + " (excluding \'-\'s: " + maxLengthWithout + ")");
-        System.out.println("Counts: A: " + Nucleotide.A + ", Ck: " + Nucleotide.C + ", G: " + Nucleotide.G + ", U: " + Nucleotide.U + ", -: " + Nucleotide.Hyphen);
+        System.out.println("Counts: A: " + Nucleotide.A + ", C: " + Nucleotide.C + ", G: " + Nucleotide.G + ", U: " + Nucleotide.U + ", -: " + Nucleotide.Hyphen);
     }
 }
 
