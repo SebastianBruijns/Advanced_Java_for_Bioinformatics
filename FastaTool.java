@@ -14,7 +14,7 @@ import java.util.ArrayList;
 class FastaTool {
 
     private BufferedReader bfr;
-    private ArrayList<Sequence> data = new ArrayList<Sequence>();
+    private ArrayList<Sequence> data = new ArrayList<>();
     private int size;
     private int avgLength;
     private int maxLength;
